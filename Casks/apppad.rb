@@ -13,8 +13,8 @@ cask "apppad" do
     strategy :github_latest
   end
 
-  # macOS 26 Tahoe or later
-  depends_on macos: :tahoe
+  # macOS 15 Sequoia or later (bare symbol = minimum)
+  depends_on macos: :sequoia
 
   app "AppPad.app"
 

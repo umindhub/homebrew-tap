@@ -13,7 +13,7 @@ brew trust umindhub/tap
 
 ## AppPad
 
-Das klassische Launchpad für macOS 26+, dazu Zwischenablage-Verlauf, Workflows und Fenstersteuerung.
+Das klassische Launchpad für macOS 15+, dazu Zwischenablage-Verlauf, Workflows und Fenstersteuerung.
 
 ```bash
 brew install --cask apppad

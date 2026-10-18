@@ -13,7 +13,7 @@ brew trust umindhub/tap
 
 ## AppPad
 
-Le Launchpad classique pour macOS 26+, avec historique du presse-papiers, workflows et gestion des fenêtres.
+Le Launchpad classique pour macOS 15+, avec historique du presse-papiers, workflows et gestion des fenêtres.
 
 ```bash
 brew install --cask apppad

@@ -13,7 +13,7 @@ brew trust umindhub/tap
 
 ## AppPad
 
-macOS 26 以降のためのクラシックな Launchpad。クリップボード履歴、ワークフロー、ウインドウ操作も搭載。
+macOS 15 以降のためのクラシックな Launchpad。クリップボード履歴、ワークフロー、ウインドウ操作も搭載。
 
 ```bash
 brew install --cask apppad

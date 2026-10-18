@@ -13,7 +13,7 @@ brew trust umindhub/tap
 
 ## AppPad
 
-The classic Launchpad for macOS 26+, plus clipboard history, workflows and window control.
+The classic Launchpad for macOS 15+, plus clipboard history, workflows and window control.
 
 ```bash
 brew install --cask apppad

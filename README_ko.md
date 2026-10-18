@@ -13,7 +13,7 @@ brew trust umindhub/tap
 
 ## AppPad
 
-macOS 26 이상을 위한 클래식 Launchpad. 클립보드 기록, 워크플로, 윈도우 제어까지 제공합니다.
+macOS 15 이상을 위한 클래식 Launchpad. 클립보드 기록, 워크플로, 윈도우 제어까지 제공합니다.
 
 ```bash
 brew install --cask apppad

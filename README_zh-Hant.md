@@ -13,7 +13,7 @@ brew trust umindhub/tap
 
 ## AppPad
 
-適用於 macOS 26+ 的經典啟動台，另有剪貼簿歷史、工作流程與視窗控制。
+適用於 macOS 15+ 的經典啟動台，另有剪貼簿歷史、工作流程與視窗控制。
 
 ```bash
 brew install --cask apppad
