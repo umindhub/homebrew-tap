@@ -6,7 +6,7 @@ cask "youmindhub" do
   url "https://github.com/umindhub/YouMindHub/releases/download/v#{version}/YouMindHub-#{version}.dmg"
   name "YouMindHub"
   desc "Local-first todo and project manager with Git sync"
-  homepage "https://github.com/umindhub/YouMindHub"
+  homepage "https://youmindhub.com/"
 
   # Track latest non-prerelease GitHub release
   livecheck do
@@ -14,8 +14,8 @@ cask "youmindhub" do
     strategy :github_latest
   end
 
-  # Deployment target macOS 14.0
-  depends_on macos: ">= :sonoma"
+  # macOS 14 Sonoma or later (bare symbol = minimum)
+  depends_on macos: :sonoma
 
   app "YouMindHub.app"
 
