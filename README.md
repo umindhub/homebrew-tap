@@ -1,6 +1,8 @@
 # umindhub Homebrew Tap
 
-Homebrew casks for apps by [YouMindHub](https://apppad.youmindhub.com/).
+[Deutsch](README_de.md) · **English** · [Español](README_es.md) · [Français](README_fr.md) · [Italiano](README_it.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Nederlands](README_nl.md) · [简体中文](README_zh-Hans.md) · [繁體中文](README_zh-Hant.md)
+
+Homebrew casks for apps by [YouMindHub](https://youmindhub.com/).
 
 ## Setup
 
@@ -48,5 +50,7 @@ brew uninstall --zap --cask youmindhub    # also remove settings & data (local p
 > Both install to `/Applications/YouMindHub.app` — remove the App Store copy first
 > (or use `brew install --cask --force youmindhub`).
 > In-app subscription is only available in the App Store version.
+
+Website: <https://youmindhub.com/>
 
 Releases: <https://github.com/umindhub/YouMindHub/releases>
