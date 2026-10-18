@@ -1,7 +1,7 @@
 cask "youmindhub" do
   # Filled by the YouMindHub "Bump Homebrew Cask" workflow
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "1.1.1"
+  sha256 "6ebf6ab681de6f49de89da0ff902daea7623683eff038bc292206656f4092186"
 
   url "https://github.com/umindhub/YouMindHub/releases/download/v#{version}/YouMindHub-#{version}.dmg"
   name "YouMindHub"
