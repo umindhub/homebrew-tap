@@ -2,7 +2,7 @@
 
 [Deutsch](README_de.md) · [English](README.md) · [Español](README_es.md) · [Français](README_fr.md) · [Italiano](README_it.md) · **日本語** · [한국어](README_ko.md) · [Nederlands](README_nl.md) · [简体中文](README_zh-Hans.md) · [繁體中文](README_zh-Hant.md)
 
-[YouMindHub](https://youmindhub.com/) のアプリ向け Homebrew Cask です。
+[YouMindHub](https://youmindhub.com/) のアプリとツール向け Homebrew Cask / Formula です。
 
 ## セットアップ
 
@@ -54,3 +54,28 @@ brew uninstall --zap --cask youmindhub    # 設定とデータも削除（ロー
 Web サイト： <https://youmindhub.com/>
 
 リリース： <https://github.com/umindhub/YouMindHub/releases>
+
+## makedmg
+
+JSON 設定からデザインされた DMG を作成するコマンドラインツール。背景色または背景画像、アイコン配置、アプリケーションへのリンク、ボリュームアイコンに対応。Finder ウインドウを開かないため CI でも動作します。DMG の署名・公証・ステープルまで行います。macOS 13 以降。
+
+```bash
+brew install umindhub/tap/makedmg
+```
+
+クイックスタート：
+
+```bash
+makedmg init --app build/MyApp.app
+makedmg preview -c makedmg.json
+makedmg build -c makedmg.json --open
+```
+
+アップデート / アンインストール：
+
+```bash
+brew upgrade makedmg
+brew uninstall makedmg
+```
+
+ソースコード： <https://github.com/umindhub/MakeDmg>

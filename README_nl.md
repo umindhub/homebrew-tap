@@ -2,7 +2,7 @@
 
 [Deutsch](README_de.md) · [English](README.md) · [Español](README_es.md) · [Français](README_fr.md) · [Italiano](README_it.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · **Nederlands** · [简体中文](README_zh-Hans.md) · [繁體中文](README_zh-Hant.md)
 
-Homebrew-casks voor apps van [YouMindHub](https://youmindhub.com/).
+Homebrew-casks en -formules voor apps en tools van [YouMindHub](https://youmindhub.com/).
 
 ## Instellen
 
@@ -54,3 +54,28 @@ brew uninstall --zap --cask youmindhub    # ook instellingen & gegevens verwijde
 Website: <https://youmindhub.com/>
 
 Releases: <https://github.com/umindhub/YouMindHub/releases>
+
+## makedmg
+
+Opdrachtregeltool die opgemaakte DMG’s bouwt vanuit een JSON-configuratie: achtergrondkleur of -afbeelding, pictogramindeling, Apps-koppeling, volumepictogram. Er opent geen Finder-venster, dus het werkt ook in CI. Ondertekent en notariseert de DMG en voegt het notarisatieticket toe. macOS 13+.
+
+```bash
+brew install umindhub/tap/makedmg
+```
+
+Snel aan de slag:
+
+```bash
+makedmg init --app build/MyApp.app
+makedmg preview -c makedmg.json
+makedmg build -c makedmg.json --open
+```
+
+Bijwerken / verwijderen:
+
+```bash
+brew upgrade makedmg
+brew uninstall makedmg
+```
+
+Broncode: <https://github.com/umindhub/MakeDmg>

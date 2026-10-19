@@ -2,7 +2,7 @@
 
 [Deutsch](README_de.md) · [English](README.md) · [Español](README_es.md) · [Français](README_fr.md) · [Italiano](README_it.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Nederlands](README_nl.md) · [简体中文](README_zh-Hans.md) · **繁體中文**
 
-[YouMindHub](https://youmindhub.com/) 旗下 App 的 Homebrew Cask。
+[YouMindHub](https://youmindhub.com/) 旗下 App 與工具的 Homebrew Cask / Formula。
 
 ## 初始設定
 
@@ -54,3 +54,28 @@ brew uninstall --zap --cask youmindhub    # 一併刪除設定與資料（包含
 官網： <https://youmindhub.com/>
 
 版本發佈： <https://github.com/umindhub/YouMindHub/releases>
+
+## makedmg
+
+以 JSON 設定產生帶樣式 DMG 的命令列工具：背景色或背景圖、圖示佈局、「應用程式」捷徑、卷宗圖示。全程不開啟 Finder 視窗，CI 上也能執行。可直接完成 DMG 的簽署、公證與裝訂。macOS 13+。
+
+```bash
+brew install umindhub/tap/makedmg
+```
+
+快速上手：
+
+```bash
+makedmg init --app build/MyApp.app
+makedmg preview -c makedmg.json
+makedmg build -c makedmg.json --open
+```
+
+升級 / 解除安裝：
+
+```bash
+brew upgrade makedmg
+brew uninstall makedmg
+```
+
+原始碼： <https://github.com/umindhub/MakeDmg>

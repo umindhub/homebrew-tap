@@ -2,7 +2,7 @@
 
 [Deutsch](README_de.md) · **English** · [Español](README_es.md) · [Français](README_fr.md) · [Italiano](README_it.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Nederlands](README_nl.md) · [简体中文](README_zh-Hans.md) · [繁體中文](README_zh-Hant.md)
 
-Homebrew casks for apps by [YouMindHub](https://youmindhub.com/).
+Homebrew casks and formulae for apps and tools by [YouMindHub](https://youmindhub.com/).
 
 ## Setup
 
@@ -54,3 +54,28 @@ brew uninstall --zap --cask youmindhub    # also remove settings & data (local p
 Website: <https://youmindhub.com/>
 
 Releases: <https://github.com/umindhub/YouMindHub/releases>
+
+## makedmg
+
+Command-line tool that builds styled DMGs from a JSON config: background color or image, icon layout, Applications link, volume icon. No Finder window opens, so it also runs on CI. Signs, notarizes and staples the DMG. macOS 13+.
+
+```bash
+brew install umindhub/tap/makedmg
+```
+
+Quick start:
+
+```bash
+makedmg init --app build/MyApp.app
+makedmg preview -c makedmg.json
+makedmg build -c makedmg.json --open
+```
+
+Upgrade / uninstall:
+
+```bash
+brew upgrade makedmg
+brew uninstall makedmg
+```
+
+Source: <https://github.com/umindhub/MakeDmg>
