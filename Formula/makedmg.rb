@@ -1,9 +1,9 @@
 class Makedmg < Formula
   desc "Build styled macOS DMGs from a JSON config, without Finder"
   homepage "https://github.com/umindhub/MakeDmg"
-  url "https://github.com/umindhub/MakeDmg/releases/download/v0.1.0/makedmg-0.1.0-macos.tar.gz"
-  version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://github.com/umindhub/MakeDmg/releases/download/v1.0.0/makedmg-1.0.0-macos.tar.gz"
+  version "1.0.0"
+  sha256 "04a426a33ce3863e7ea5a0f1350225845771617d61e583201e546adbcaab9add"
   license "AGPL-3.0-only"
 
   depends_on macos: :ventura
