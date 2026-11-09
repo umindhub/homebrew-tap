@@ -6,7 +6,7 @@ cask "youmindhub" do
   url "https://github.com/umindhub/YouMindHub/releases/download/v#{version}/YouMindHub-#{version}.dmg"
   name "YouMindHub"
   desc "Local-first todo and project manager with Git sync"
-  homepage "https://youmindhub.com/"
+  homepage "https://youmindhub.com/i/youmindhub"
 
   # Track latest non-prerelease GitHub release
   livecheck do
