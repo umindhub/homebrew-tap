@@ -5,7 +5,7 @@ cask "apppad" do
   url "https://github.com/umindhub/AppPad/releases/download/v#{version}/AppPad-#{version}.dmg"
   name "AppPad"
   desc "Classic Launchpad replacement with clipboard, workflows and window control"
-  homepage "https://apppad.youmindhub.com/"
+  homepage "https://youmindhub.com/i/apppad"
 
   # Track latest non-prerelease GitHub release
   livecheck do
