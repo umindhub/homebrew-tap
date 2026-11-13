@@ -1,6 +1,6 @@
 cask "apppad" do
-  version "1.7.1"
-  sha256 "a790afa0996f6b6405628af3031ef3f1507bcfc1c19a8b236e2013887554727b"
+  version "1.7.2"
+  sha256 "fa47891fe51e29b36e84f6afff4df7845febf14d71869e962f22be114657d9d6"
 
   url "https://github.com/umindhub/AppPad/releases/download/v#{version}/AppPad-#{version}.dmg"
   name "AppPad"
